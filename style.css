@@ -1,0 +1,542 @@
+body {
+  margin: 0; 
+  font-family:  sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-container{
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+ 
+}
+
+.flex-container-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-container-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bgtopimg{
+  min-height: 800px;
+  background: url('hero-img.png') no-repeat center center fixed; 
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.divnav{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.divnav a{
+  display: block;
+  color: rgb(119, 119, 119);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.divnav .icon{
+  display: none;
+}
+
+.button {
+  background-color: rgb(245 199 102);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+  border-radius: 50px;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#serviceheading{
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+#headerdiv{
+  max-height: 500px;
+}
+.bigheading{
+  font-size: 50px;
+  font-weight: lighter;
+   width: 100%; 
+  margin-bottom: 2%;
+
+
+}
+#innerpara2{
+  text-align: left;
+  font-weight: lighter;
+  font-size: 16px;
+  width: 50%;
+}
+#whitedot{
+  color: #fff;
+}
+#credo{
+  color: white;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px 20px 0px 20px;
+  margin-top:10px; 
+}
+#home{
+  color: white;
+}
+#innerdivtop{
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 1000px; 
+  margin-top: 150px;text-align: left;
+  padding: 5;
+  position: absolute;
+  width: 70%;
+}
+#innerpara1{
+  color: grey;
+  font-size: 23px;
+  font-weight: lighter;
+   width: 50%; 
+}
+#servicesdiv{
+  background-color: whitesmoke;
+  padding-top: 100px;
+}
+.servivestyle{
+  position: absolute;
+  width: 30%;
+}
+
+.servivestyle2{
+  position: absolute;
+  width: 30%;
+  float: right;
+}
+
+
+.servicessection{
+  border-radius: 2px;
+  margin: 50px;
+  background-color: white;
+  padding: 20px;
+  
+}
+.buttonmsg{
+   background-color: rgb(63, 62, 62);
+   margin-bottom: 2%;
+} 
+#clientdiv{
+  background-color: rgb(245, 198, 97);;
+  color: white;
+  padding-bottom: 5%;
+}
+#aboutmeid{
+  align-content: center;
+ 
+}
+
+#events{
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+#wedding{
+  margin-bottom: 20px;
+}
+#culture{
+  margin-left: 0;
+  margin-top: 20px;
+}
+#conferences{
+  margin-top: 20px;
+}
+h2{
+  padding-top: 10%;
+  color: white;
+  text-align: center;
+
+}
+#lastdiv{
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+#footercredo{
+  text-align: left;
+
+}
+#lastdiv div{
+
+  padding: 2%;
+  padding-right: 7%;
+}
+#followmefonts{
+  color: rgb(100, 100, 100);
+  padding:0 !important;
+}
+#followmefonts a{
+   margin: 10px;
+   
+}
+footer{
+  padding: 2%;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 5%;
+}
+.fromdiv{
+display: flex;
+flex-direction: column;
+  background-color: rgb(245 199 102);
+
+}
+#logodiv{
+    float: left;
+    background: rgb(231, 196, 119);;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-right: 2%;
+    padding: 5;
+    
+}
+#logodiv p{
+  text-align: center;
+  color: #eee;
+}
+
+.buttonround{
+  border-radius: 100%;
+  width: 50%;
+  height: 50%;
+  margin: 5%;
+  margin-bottom: 10%;
+  float: left;
+ 
+
+}
+
+.paralleldivtologo{
+  
+  display: table-cell;
+  padding: 2%;
+}
+.aboutme{
+  
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+#imageabout{
+  width: 89%;
+
+}
+#aboutmeheading{
+  font-size: 30px;
+  font-weight: lighter;
+}
+#aboutmepara{
+  font-size: 16px;
+  width: 70%;
+}
+
+
+
+#clientheading{
+  text-align: center;
+  align-content: center;
+}
+#commas{
+  font-size: 25px;
+  text-align: center;
+  align-content: center;
+
+}
+#blockquote{
+  
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  padding-inline-start: 25%;
+  width: 50%;
+
+}
+.percentageid{
+  width: 100%;
+  padding-top: 7%;
+}
+
+.progress-container {
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.1);
+ 
+}
+
+.progress-container, .progress {
+  background-color: #eee;
+  border-radius: 5px;
+  position: relative;
+  height: 7px;
+  width: 80%;
+}
+
+.progress {
+  background-color: rgb(245 199 102);
+  transition: width 0.4s linear;
+ 
+}
+
+.percentage {
+  background-color: rgb(245 199 102);
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  text-align: center;
+  margin-left: 89%;
+}
+.progresswidth1{width:89%}
+.progresswidth2{width: 75%;}
+.progresswidth3{width: 94%;}
+
+.percentagemargin1{margin-left: 89%;}
+.percentagemargin2{margin-left: 75%;}
+.percentagemargin3{margin-left: 94%;}
+
+.percentage::after {
+  background-color: rgb(245 199 102);
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+
+}
+.dot1{
+  background-color: #fff;
+}
+.divdots{
+  text-align: center;
+  padding-bottom: 2%; ;
+}
+
+
+#blogpostsid{
+  text-align: center;
+  align-items: center;
+  padding: 5%
+
+}
+::placeholder{
+  color: #bbb;
+  opacity: 100;
+}
+.blogstyle{
+  border-radius: 2px;
+  margin: 5%;
+  background-color: white;
+  margin-bottom: 5%;
+  height: 50%;
+  padding-bottom: 2%;
+
+}
+.midimage{
+  
+ 
+ margin-top: 5%;
+ border-radius: 2px;
+ background-color: white;
+ margin-bottom: 5%;
+ height: 50%;
+ padding-bottom: 2%;
+}
+
+#blogpost{
+  align-items: center;
+  background-color: whitesmoke;
+}
+.imagestyles{
+  width: 100%;
+  height: 80%;
+}
+.underimagebody{
+ align-items: center;
+ padding-left: 7%;
+ padding-right: 7%;
+
+}
+.underimagebody a{
+  color: rgb(231, 196, 119);
+  text-decoration: none;
+
+}
+
+#divform{
+  background-color: rgb(245 199 102);
+  margin:0px;
+}
+.sayhello{
+  text-align: center;
+  padding: 2%;
+  margin:0;
+  color: whitesmoke;
+  padding-top: 6%;
+}
+.formdiv{
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 5%;
+}
+#formd{
+   align-content: center;
+}
+.flexform{
+  display: flex;
+  flex-direction: row;
+}
+
+.formbox{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+ 
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid whitesmoke;
+  margin-top: 2%;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.textbox textarea{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+#firstname{
+  margin-right: 41px;
+}
+.marginperdiv{
+  margin-bottom: 50px;
+
+}
+@media only screen and (max-width: 600px) {
+  .divnav a {display: none;}
+  .divnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .divnav.responsive {position: relative;}
+  .divnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+  }
+  .divnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  #lastdiv  {
+    flex-direction: column;
+  }
+  .services{
+    flex-direction: column;
+  }
+  .flex-container-row{
+    flex-direction: column;
+    justify-content: center;
+  }
+  #events,#culture{
+    margin-left: 50px;
+  }
+  #percentageprogress{
+    padding-left: 5%;
+  }
+  #innerpara1,#innerpara2{
+    width: 100%;
+  }
+  .midimage{
+    margin:20px
+  }
+ 
+}
